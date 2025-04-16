@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo elementos LINKS</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a {
+            color: red;
+            text-decoration: none;
+        }
+        a:visited {
+            color: darkred;
+        }
+        a:active {
+            color: yellow;
+        }
+        a::before{
+            content: 'clica ai porra ';
+            color: lightgray;
+        }
+        a::after{
+            content: ' [link]';
+            text-decoration: none;
+            font-weight: normal;
+            color: darkgray;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li> <a href="https://www.instagram.com/mnydota/">Insta</a> Link para o Insta</li>
+        <Li> <a href="https://www.youtube.com/watch?v=NBH-FvTs-d0&ab_channel=ASTROJACKLEGENDAS">youtube</a> Link para o youtube</Li>
+        <li> <a href="https://x.com/Aomine_mny">x</a> Link para o X</li>
+    </ul>
+</body>
+</html>

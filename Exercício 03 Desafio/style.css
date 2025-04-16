@@ -1,0 +1,166 @@
+@font-face {
+    font-family: 'idroid';
+    src: url('idroid.otf'),  format('opentype');
+    /* 
+    Tipos de formato Opentype = OTF ; TrueType TPF ; embedded-opentype
+    */
+}
+body {
+    background-color: bisque;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    display: block;
+    
+
+}
+
+header{
+    background-image: linear-gradient(to bottom, #80ee72, #68e361, #3fb441, #25b030, #036d11);
+    color: rgb(85, 85, 85);
+    
+    width: 100vw;
+    height: 200px;
+    display: inline-table;
+    box-shadow: 2px 2px 9px 1px black;
+    margin: -8px -15px 0px -30px;
+    
+    
+}
+
+header > nav {
+    text-align: justify;
+    
+}
+
+header > p {
+    font-size: 20px;
+}
+
+main{
+    background-color: white;
+    text-align: justify;
+    max-width: 1000px;
+    min-width: 400px;
+    margin: auto;
+    text-indent: 30px;
+    padding: 10px;
+    
+    
+    box-shadow: 0px 0px 9px 3px rgba(0, 0, 0, 0.342);
+
+}
+
+article#Listas{
+    background-color: rgba(0, 100, 0, 0.822);
+    padding: 3px;
+    border-radius: 15px 15px 0px 0px;
+    margin-top: 10px;
+}
+
+article > aside{
+    background-color: rgb(124, 255, 124);
+    padding: 5px;
+}
+
+article > p {
+    padding: 8px;
+}
+
+footer{
+    background-color: darkgreen;
+    position: relative;
+    width: 100vw;
+    
+    margin: 0px -15px -8px -23px;
+    font-style: italic;
+    box-shadow: 0px -1px 9px 2px rgba(0, 0, 0, 0.39);
+}
+
+h1{
+    color: rgba(255, 255, 255, 0.829);
+    font-size: 48px;
+    text-decoration: dashed;
+    text-shadow: 1px 2px 1px black;
+    text-align: center;
+}
+
+h2{
+    font-family: idroid, Times, sans-serif;
+    margin-left:  15px;
+}
+.subtitulo{
+    background-image:  linear-gradient(to right, #3fb441, #77ec7144, #94f77b00);
+    font-size: 20px;
+    padding: 3px 3px 3px 5px;
+}
+
+h3{
+    color: white;
+}
+nav {
+    display: flex;
+
+    gap: 5%;
+    
+    /* 
+    display: flex;
+
+    gap: 5%;
+    ESTILO FLEXBOX PARA SEPARAR LINHAS E O GAP COMO ESPAÇAMENTO
+    */
+}
+
+nav#cabeçario {
+    gap: 0;
+    margin-left: 40px;
+    
+}
+
+nav#cabeçario > a:hover {
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.11));
+    background-size: 500px;
+    transition-duration: 1s;
+}
+
+nav > a {
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+
+    
+}
+
+.tamanho {
+    width: 100%;
+}
+
+main > p {
+    padding: 10px;
+}
+iframe{
+    width: 1020px;
+    height: 315px;  /*width="560" height="315" */
+    min-width: 250px;
+    margin-bottom: -5px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 9px 2px rgba(0, 0, 0, 0.342);
+    
+}
+img#androidimg {
+    max-width: 500px;
+    margin: auto;
+    display: block;    /* Imagem não é um block por natureza , logo o margin auto não funcionaria */
+}
+header > p {
+    text-align: center;
+    padding: 10px;
+}
+.linksite {
+    text-decoration: none;
+    background-color: rgba(6, 179, 6, 0.678);
+    color: black;
+}
+.linksite2 {
+    text-decoration: none;
+    color: #07350dc4;
+}

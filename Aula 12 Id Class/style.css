@@ -1,0 +1,30 @@
+/* 
+    ID em HTML é # em CSS
+    Class em HTML é . em CSS
+    Class pode ser usado várias vezes , ID é para apenas uma identificação
+    Nomeie class por função , e não por formato , por EX class = "basico" para ser azul , e nao class = "azul"
+    */
+body{
+    background-color: aquamarine;
+}
+h1{
+    color: rgb(4,109,0);
+}
+h1#principal{
+    text-align: center;
+}
+h1#secundario{
+    text-align: right;
+}
+h2{
+    color: rgb(0, 32, 0);
+}
+.basico {
+    color: blueviolet;
+}
+.destaque {
+    background-color: white;
+}
+h3{
+    color: white;
+}
