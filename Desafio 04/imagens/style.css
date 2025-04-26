@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body{
+      
+}
+header{
+    
+    height: 100px;
+}
+main{
+    
+
+}
+pre{
+    font-family: 'Comic Relief', sans-serif;
+    padding: 10px;
+}
+article{
+        
+}
+
+footer {
+    
+    height: 23px;
+}
+.cabecarios{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
