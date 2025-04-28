@@ -6,17 +6,34 @@
     margin: 0px;
     padding: 0px;
 }
+
 body{
       
 }
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
 header{
     
-    height: 140px;
+    padding-bottom: 50px;
+    text-align: center;
+    
 }
 
 header > h1 {
     font-family: 'Roboto Mono', sans-serif;
-    margin: 15px 0px;
+    padding-top: 30px;
+    font-size: 8vw;
+
+}
+
+header > p {
+    padding-bottom: 50px;
+    font-size: 3.2vw;
 }
 
 main{
@@ -28,8 +45,8 @@ pre{
     padding: 5px;
     margin: 25px 0px;
     text-align: left;
+    font-size: 2.2vw;
     
-    font-size-adjust: 100%;
     
 }
 article{
@@ -39,6 +56,7 @@ article{
 aside{
     background-position: center center;
     background-size: cover;
+    background-attachment: fixed;
     width: 100%;
     min-width: 200px;
     padding: 15px 0px 15px 0px;
@@ -47,8 +65,9 @@ aside{
 
 aside > pre {
     background-color: rgba(0, 0, 0, 0.39);
+    
     color: white;
-    width: 310px;
+    width: 32vw;
     padding: 10px 0px;
     margin-left: 30px;
     display: inline-block;
