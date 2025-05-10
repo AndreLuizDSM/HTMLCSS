@@ -1,0 +1,32 @@
+/* 
+    Typical Device BreakPoints
+pequenas telas: até 600px
+celular: de 600px até 768px
+tablet: 768px até 992px
+desktop: 992px até 1200px
+grandes telas: acima de 1200px
+
+Esse modelo seria para mobile , mas o style.css já está fazendo isso
+@media screen and (max-width: 600px) {
+}
+
+@media screen and (min-width: 600px) and (max-width: 768px) {
+}
+*/
+
+@media screen and (min-width: 768px) {
+    i#burguer {
+        display: none;
+    }
+    menu /* itens */ {
+        display: block;
+    }
+    li {
+        display: inline-block;
+    }
+    main {
+        width: 768px;
+    }
+
+}
+
