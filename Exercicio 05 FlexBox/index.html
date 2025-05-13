@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox</title>
+    <link rel="stylesheet" href="estilos/firstmobile.css">
+    <link rel="stylesheet" href="estilos/media-querry.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
+
+</head>
+<body onresize="MudarTamanho()">
+    <header>
+        <h1>Meu Site</h1>
+        <i id="burguer" class="material-symbols-outlined" onclick="AbrirMenu()">menu</i>
+        <menu id="menu">
+            <ul>
+                <li class="lista">Opção 1</li>
+                <li class="lista">Opção 2</li>
+                <li class="lista">Opção 3</li>
+                <li class="lista">Opção 4</li>
+                <li class="lista">Opção 5</li>
+            </ul>
+        </menu>
+    </header>
+
+    <main class="container">
+        <section>
+            <h2>Teste de FlexBoxx</h2>
+            <article>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius dicta enim, facilis aliquid tempore esse atque molestiae distinctio reprehenderit et rem maiores, magnam ab odit aut nobis. Eveniet, molestias ipsam.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo temporibus possimus voluptates, distinctio repudiandae aliquid consequuntur voluptas quae quaerat similique cupiditate doloribus voluptate tenetur exercitationem veniam ipsam laborum labore quos?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, labore vero blanditiis delectus veniam natus eius saepe aliquid cupiditate suscipit! Ea delectus maiores quam expedita, dolorem aliquid dolore. Veritatis, dignissimos! Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, voluptas dicta at voluptatibus perspiciatis commodi soluta quia doloremque molestias perferendis veniam incidunt asperiores. Odio, aut alias beatae delectus ipsum nulla.</p>
+            </article>
+        </section>
+    </main>
+
+    <script>
+        function MudarTamanho() {
+            if (window.innerWidth >= 768) {
+                menu.style.display = 'block'
+            } else {
+                menu.style.display = 'none'
+            }
+        }
+        
+        function AbrirMenu() {
+            if (menu.style.display == 'block') {
+                menu.style.display = 'none'
+            } else {
+                menu.style.display = 'block'
+            }
+        }   
+    </script>
+</body>
+</html>
