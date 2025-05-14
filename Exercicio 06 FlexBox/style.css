@@ -1,0 +1,29 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.header {
+    padding: 20px;
+}
+
+.container {
+    background-color: rgba(128, 128, 128, 0.635);
+    
+    padding: 20px;
+    text-align: justify;
+    
+
+}
+
+.second-box {
+
+}
+
+#Photo {
+    width: 380px;
+    height: 310px;
+}
+
