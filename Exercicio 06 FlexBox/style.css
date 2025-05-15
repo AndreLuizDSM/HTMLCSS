@@ -13,17 +13,66 @@
     background-color: rgba(128, 128, 128, 0.635);
     
     padding: 20px;
+    
     text-align: justify;
     
+    display: flex;
+    flex-direction: column;
+}
+
+.media-text , .text-media {
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.media-text {
+    flex-flow: row wrap-reverse;
+}
+
+.text-media {
+    flex-flow: row wrap;
 
 }
 
-.second-box {
+.text {
+    flex: 1 1 500px;
+    
+}
 
+.media {
+    flex: 1 0 400px;
+    
 }
 
 #Photo {
-    width: 380px;
+    
     height: 310px;
+    display: block;
+    margin: auto;
+   
+}
+
+iframe {
+    display: block;
+    margin: auto;
+    width: 90%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 660px) {
+    iframe {
+        width: 86.5vw;
+    }
 }
 
